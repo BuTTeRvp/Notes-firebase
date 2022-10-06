@@ -1,0 +1,8 @@
+.note-input {
+	padding: 6px;
+	width: 100%;
+	max-width: 500px;
+}
+textarea {
+	border-style: none;
+}

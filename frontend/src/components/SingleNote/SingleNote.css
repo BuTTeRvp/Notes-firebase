@@ -1,0 +1,51 @@
+.note-container {
+	display: flex;
+	background: #fff;
+	border-radius: 7px;
+	box-shadow: 0 2px 5px #ccc;
+	padding: 6px;
+	width: 300px;
+	margin: 4px 0px 0px;
+	flex-direction: column;
+	
+
+}
+
+.note-details-container {
+  font-size: 1.1em;
+  margin-bottom: 7px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+	float: left;
+	text-align: center;
+	/* display: block;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px; */
+	
+}
+
+.note-button-container {
+	display: absolute;
+	align-items: center;
+	column-gap: 8px;
+	margin-left: 170px ;
+	float: right;
+}
+
+.note-button {
+	background-color: white;
+	padding: 6px;
+	border-radius: 4px;
+	border-color: gray;
+	cursor: pointer;
+}
+
+.note-button:hover {
+	background-color: rgb(233, 233, 233);
+}
+
+.note-button:disabled {
+	cursor: not-allowed;
+}
